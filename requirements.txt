@@ -1,0 +1,18 @@
+# SceneForge AI – Requirements
+#
+# This project runs inside Blender's embedded Python interpreter.
+# No external pip packages are required for the core application.
+#
+# Minimum Blender version: 3.6 LTS (bundled Python 3.10)
+# Recommended:             Blender 4.x  (bundled Python 3.11)
+#
+# To verify your Blender Python version, run inside Blender's Python console:
+#   import sys; print(sys.version)
+#
+# ── Optional (for development / linting outside Blender) ──────────────────────
+# Install a stub package so IDEs can resolve `bpy` imports without Blender:
+#
+#   pip install fake-bpy-module-latest
+#
+# Reference: https://github.com/nutti/fake-bpy-module
+fake-bpy-module-latest==20240917

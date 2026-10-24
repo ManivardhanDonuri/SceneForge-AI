@@ -1,0 +1,46 @@
+{
+  "environment": {
+    "type": "city",
+    "ground_size": 100,
+    "road_width": 6
+  },
+  "buildings": {
+    "count": 20,
+    "min_height": 5,
+    "max_height": 30,
+    "min_width": 4,
+    "max_width": 12,
+    "spacing": 3
+  },
+  "lighting": {
+    "sun": {
+      "enabled": true,
+      "energy": 5.0,
+      "angle_degrees": 45
+    },
+    "area": {
+      "enabled": true,
+      "energy": 200,
+      "size": 10
+    },
+    "environment": {
+      "enabled": true,
+      "strength": 0.5,
+      "color": [0.2, 0.3, 0.5]
+    }
+  },
+  "camera": {
+    "auto_frame": true,
+    "distance_factor": 1.5,
+    "height": 25,
+    "focal_length_mm": 35
+  },
+  "render": {
+    "engine": "CYCLES",
+    "samples": 128,
+    "resolution_x": 1920,
+    "resolution_y": 1080,
+    "output_dir": "//output/",
+    "file_format": "PNG"
+  }
+}
